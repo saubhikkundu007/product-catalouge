@@ -30,10 +30,11 @@ tomcat:run
 ```
 
 
-#APIs -
+# APIs -
 
 ###	Add a product
-POST /api/product
+`POST /api/product`
+
 sample input to this i.e product catalouge document structure is -
 ```
 {
@@ -45,10 +46,10 @@ sample input to this i.e product catalouge document structure is -
 ```
 
 ###	Retrieve multiple products based on productType
-GET /api/product/product-type/{product-type}
+`GET /api/product/product-type/{product-type}`
 
 ###	Retrieve a product based on productId
-GET /api/product/product-id/{product-id}
+`GET /api/product/product-id/{product-id}`
 
 ### Delete a product
-DELETE /api/product/product-id/{product-id}
+`DELETE /api/product/product-id/{product-id}`
