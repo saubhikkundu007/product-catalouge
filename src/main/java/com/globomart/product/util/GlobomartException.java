@@ -3,7 +3,7 @@ package com.globomart.product.util;
 /**
  * This class used to throw internal exceptions.
  * 
- * @author Rajesh Barri.
+ * @author Saubhik Kundu
  *
  */
 public class GlobomartException extends Exception {
