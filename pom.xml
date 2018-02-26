@@ -60,22 +60,6 @@
 		</dependency>
 	</dependencies>
 
-
-	<repositories>
-		<repository>
-			<releases>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy>
-				<checksumPolicy>fail</checksumPolicy>
-			</releases>
-			<id>cardinal-maven-repo</id>
-			<name>cardinal</name>
-			<url>https://cardinal-maven-repo2.mybluemix.net/maven2</url>
-			<layout>default</layout>
-		</repository>
-	</repositories>
-
-
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<resources>
